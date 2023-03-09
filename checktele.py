@@ -195,7 +195,7 @@ async def hunterusername(event):
                 )
                 await event.client.send_message(
                     event.chat_id,
-                    f"𓆩 We are the strongest 𓆪
+                    f"
 UserName ➭ ❲@{username}❳
 Clicks ➭ ❲{trys}❳
 By ➭ @xxizx",
