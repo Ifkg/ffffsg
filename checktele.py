@@ -60,8 +60,8 @@ def gen_user(choice):
 
     elif choice == "ثلاثي":
         c = random.choices(a)
-        d = random.choices(e)
-        s = random.choices(e)
+        d = random.choices(a)
+        s = random.choices(a)
         f = [c[0], "_", d[0], "_", s[0]]
         username = "".join(f)
     elif choice == "سداسيات":
